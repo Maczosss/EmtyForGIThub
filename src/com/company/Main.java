@@ -10,14 +10,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Losujemy liczby!");
-        System.out.print("Podaj ile: ");
+//        System.out.print("Podaj ile: ");
 
-        int ile;
-        ile = scanner.nextInt();
+//        int ile;
+//        ile = scanner.nextInt();
 
         Random random = new Random();
-        for (int i = 0; i < ile; i++) {
-            int x = random.nextInt(99 + 1);
+        for (int i = 0; i < 10; i++) {
+            int x = random.nextInt(50);
 
             System.out.println(x);
 
